@@ -20,6 +20,7 @@
   "name":"CrawlSpace",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Sprite_backgroundImage","path":"sprites/Sprite_backgroundImage/Sprite_backgroundImage.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

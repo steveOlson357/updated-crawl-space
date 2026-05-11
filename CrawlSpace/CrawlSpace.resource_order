@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Sprite_backgroundImage","order":1,"path":"sprites/Sprite_backgroundImage/Sprite_backgroundImage.yy",},
+  ],
 }
