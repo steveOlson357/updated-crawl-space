@@ -1,0 +1,1 @@
+move_and_collide(-player_attributes.player_speed, 0, INTERACTS_WITH);
