@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"Object_Player","order":3,"path":"objects/Object_Player/Object_Player.yy",},
+    {"name":"Player","order":2,"path":"sprites/Player/Player.yy",},
     {"name":"Sprite_backgroundImage","order":1,"path":"sprites/Sprite_backgroundImage/Sprite_backgroundImage.yy",},
   ],
 }
