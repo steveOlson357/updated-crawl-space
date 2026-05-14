@@ -1,9 +1,11 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"Object_Platform","order":7,"path":"objects/Object_Platform/Object_Platform.yy",},
     {"name":"Object_Player","order":3,"path":"objects/Object_Player/Object_Player.yy",},
     {"name":"Player","order":2,"path":"sprites/Player/Player.yy",},
     {"name":"Sprite_backgroundImage","order":1,"path":"sprites/Sprite_backgroundImage/Sprite_backgroundImage.yy",},
+    {"name":"Sprite_Platform_Object","order":8,"path":"sprites/Sprite_Platform_Object/Sprite_Platform_Object.yy",},
     {"name":"Sprite_Platform","order":5,"path":"sprites/Sprite_Platform/Sprite_Platform.yy",},
     {"name":"TileSet_Platform","order":6,"path":"tilesets/TileSet_Platform/TileSet_Platform.yy",},
   ],
