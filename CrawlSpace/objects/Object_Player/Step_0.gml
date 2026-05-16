@@ -1,5 +1,11 @@
 // check for something under player
 
-if place_meeting(Object_Player.x, Object_Player.y + sprite_get_bbox_bottom(Player), tileCollisions) {
-		move_and_collide(dx, 0, tileCollisions)
-	}
+move_x = ((keyboard_check(vk_right) - keyboard_check(vk_left)) * player_attributes.player_speed);
+move_y = (player_attributes.player_speed);
+
+// Jump
+if (keyboard_check_pressed(vk_up) ){
+	move_and_collide(0, -Object_Player.sprite_height * 0.33, PlatformTileCollisions);
+}
+
+move_and_collide(move_x, move_y, PlatformTileCollisions);
