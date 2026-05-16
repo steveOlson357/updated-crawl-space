@@ -3,6 +3,7 @@
 player_attributes = {
 		player_hp : 100, 
 		player_speed : 1.5,
+		player_fall_speed: 2,
 		enemies : []
 	};
 	
