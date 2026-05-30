@@ -5,11 +5,9 @@ move_y = (player_attributes.player_fall_speed);
 
 
 
-
-
 // Jump
 
-
+// limit to only double jump
 
 
 
@@ -31,3 +29,8 @@ if (keyboard_check_pressed(vk_up) ){
 
 // check for platforms
 move_and_collide(move_x, move_y, PlatformTileCollisions);
+
+
+// set height limit for player death for falling out of the room
+
+// health check for room reset
