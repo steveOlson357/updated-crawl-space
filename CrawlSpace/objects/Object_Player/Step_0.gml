@@ -3,23 +3,31 @@ move_x = ((keyboard_check(vk_right) - keyboard_check(vk_left)) * player_attribut
 move_y = (player_attributes.player_fall_speed);
 
 
+// Reset jump counter if on solid surface
+if(place_meeting(x, y + 2, PlatformTileCollisions)) {
+	player_attributes.jump_counter = 0;
+}	
+
 
 
 // Jump
-
-// limit to only double jump
-
-
-
-
-
-
-
-
 if (keyboard_check_pressed(vk_up) ){
-	move_and_collide(0, -Object_Player.sprite_height * .75, PlatformTileCollisions);
-	
+	// add to counter to allow only double jumps
+	if (player_attributes.jump_counter <= 1) {
+		// show_debug_message("Jump counter: " + string(jump_counter));
+		move_y = -(player_attributes.jump) ;
+		player_attributes.jump_counter++;
+		// show_debug_message("jump counter incremented: " + string(jump_counter));
+	}
+
 }
+
+
+
+//if (keyboard_check_pressed(vk_up) ){
+//	move_and_collide(0, -Object_Player.sprite_height * .75, PlatformTileCollisions);
+	
+//}
 
 
 
