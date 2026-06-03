@@ -4,7 +4,7 @@ move_y = (player_attributes.player_fall_speed);
 
 // firing
 if keyboard_check_pressed(vk_space) {
-	instance_create_layer(x + sign(Object_Player.image_xscale)*50, y + 30, "Instances_Player", obj_laser, {speed: (sign(Object_Player.image_xscale)*10) });
+	instance_create_layer(x * sign(Object_Player.image_xscale) + 10, y - 12, "Instances_Player", obj_laser, {speed: (sign(Object_Player.image_xscale)*10) });
 }
 
 
