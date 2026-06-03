@@ -30,9 +30,9 @@ function i_like_to_move_it_move_it(spd) {
 /// @description		Evaluates distance to player and chooses to chase or roll for random movement depending on step counter
 function enemyLogic(spd, step_ctr = 0) {
 	
-	distanceToPlayer = distance_to_object(Player);
+	distanceToPlayer = distance_to_object(Object_Player);
 	
-	if (distanceToPlayer <= 150) {
+	if (distanceToPlayer <= 200) {
 		EnemyChaseState()
 	} else {
 		EnemyWanderState(spd, step_ctr)
@@ -58,10 +58,8 @@ function EnemyWanderState(spd, step_ctr){
 /// @description		Enemy gives chase toward player at max speed
 function EnemyChaseState(){
 	speed = 3;
-	direction = point_direction(x,y,Player.x,Player.y);
+	direction = point_direction(x,y,Object_Player.x, Object_Player.y);
 }
-
-
 	
 function EnemyAttackState(){}
 
