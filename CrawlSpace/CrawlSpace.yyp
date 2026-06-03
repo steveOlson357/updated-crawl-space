@@ -9,7 +9,13 @@
     "name":"Default",
   },
   "defaultScriptType":1,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Characters","folderPath":"folders/Objects/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Environment","folderPath":"folders/Sprites/Environment.yy","name":"Environment","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Sprites/Environment/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gm_filter_old_film-1.0.0","name":"io.gamemaker.gm_filter_old_film-1.0.0","path":"io.gamemaker.gm_filter_old_film-1.0.0.yyp",},
   ],
@@ -23,7 +29,9 @@
   "resources":[
     {"id":{"name":"Object_Platform","path":"objects/Object_Platform/Object_Platform.yy",},},
     {"id":{"name":"Object_Player","path":"objects/Object_Player/Object_Player.yy",},},
+    {"id":{"name":"ZapFly","path":"objects/ZapFly/ZapFly.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"BobbingSpaceBug","path":"sprites/BobbingSpaceBug/BobbingSpaceBug.yy",},},
     {"id":{"name":"Player","path":"sprites/Player/Player.yy",},},
     {"id":{"name":"Sprite_backgroundImage","path":"sprites/Sprite_backgroundImage/Sprite_backgroundImage.yy",},},
     {"id":{"name":"Sprite_Platform_Object","path":"sprites/Sprite_Platform_Object/Sprite_Platform_Object.yy",},},

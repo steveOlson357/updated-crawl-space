@@ -1,8 +1,14 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"Characters","order":1,"path":"folders/Objects/Characters.yy",},
+    {"name":"Sprites","order":10,"path":"folders/Sprites.yy",},
+    {"name":"Environment","order":1,"path":"folders/Sprites/Environment.yy",},
+    {"name":"Enemies","order":1,"path":"folders/Sprites/Environment/Enemies.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"Object_Platform","order":7,"path":"objects/Object_Platform/Object_Platform.yy",},
-    {"name":"Object_Player","order":3,"path":"objects/Object_Player/Object_Player.yy",},
+    {"name":"Object_Player","order":1,"path":"objects/Object_Player/Object_Player.yy",},
     {"name":"Player","order":2,"path":"sprites/Player/Player.yy",},
     {"name":"Sprite_backgroundImage","order":1,"path":"sprites/Sprite_backgroundImage/Sprite_backgroundImage.yy",},
     {"name":"Sprite_Platform_Object","order":8,"path":"sprites/Sprite_Platform_Object/Sprite_Platform_Object.yy",},
