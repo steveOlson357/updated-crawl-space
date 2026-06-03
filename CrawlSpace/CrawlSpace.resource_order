@@ -15,6 +15,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Object_Player","order":1,"path":"objects/Object_Player/Object_Player.yy",},
+    {"name":"BlueMarineDamaged","order":1,"path":"sprites/BlueMarineDamaged/BlueMarineDamaged.yy",},
     {"name":"Sprite_Platform","order":1,"path":"sprites/Sprite_Platform/Sprite_Platform.yy",},
     {"name":"Sprite_Player","order":1,"path":"sprites/Sprite_Player/Sprite_Player.yy",},
     {"name":"TileSet_Platform","order":2,"path":"tilesets/TileSet_Platform/TileSet_Platform.yy",},

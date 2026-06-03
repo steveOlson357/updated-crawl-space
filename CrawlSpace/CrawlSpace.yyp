@@ -40,6 +40,7 @@
     {"id":{"name":"ZapFly","path":"objects/ZapFly/ZapFly.yy",},},
     {"id":{"name":"Platform_Sidescroll","path":"rooms/Platform_Sidescroll/Platform_Sidescroll.yy",},},
     {"id":{"name":"scr_enemy","path":"scripts/scr_enemy/scr_enemy.yy",},},
+    {"id":{"name":"BlueMarineDamaged","path":"sprites/BlueMarineDamaged/BlueMarineDamaged.yy",},},
     {"id":{"name":"BlueMarineWaiting","path":"sprites/BlueMarineWaiting/BlueMarineWaiting.yy",},},
     {"id":{"name":"BobbingSpaceBug","path":"sprites/BobbingSpaceBug/BobbingSpaceBug.yy",},},
     {"id":{"name":"Laser","path":"sprites/Laser/Laser.yy",},},

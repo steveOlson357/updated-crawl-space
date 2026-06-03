@@ -55,7 +55,7 @@ if place_meeting(x, y, ZapFly) {
 	if (player_attributes.player_hp > 0) {
 		move_x = 0;
 		move_y = 0
-		// add damage sprite
+		sprite_index = BlueMarineDamaged
 	}
 }
 
