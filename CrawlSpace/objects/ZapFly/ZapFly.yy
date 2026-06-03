@@ -10,8 +10,8 @@
   "name":"ZapFly",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"Character Objects",
+    "path":"folders/Objects/Character Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

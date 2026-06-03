@@ -4,7 +4,7 @@
 
 
 
-	if hp > 0 && Player.player_attributes.player_health > 0 {
+	if hp > 0 && Sprite_Player.player_attributes.player_health > 0 {
 		enemyLogic(spd);
 	} else { 
 		// killing a ZapFly will have a random chance of spawning a new one

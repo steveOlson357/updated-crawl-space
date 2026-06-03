@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Sprites/Environment/Enemies.yy",
+    "name":"Character Sprites",
+    "path":"folders/Sprites/Character Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
