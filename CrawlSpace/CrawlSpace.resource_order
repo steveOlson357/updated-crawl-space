@@ -5,6 +5,7 @@
     {"name":"Characters","order":3,"path":"folders/Objects/Characters.yy",},
     {"name":"Interactive","order":2,"path":"folders/Objects/Interactive.yy",},
     {"name":"Rooms","order":11,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":12,"path":"folders/Scripts.yy",},
     {"name":"Sprites","order":10,"path":"folders/Sprites.yy",},
     {"name":"Character Sprites","order":3,"path":"folders/Sprites/Character Sprites.yy",},
     {"name":"Environment","order":1,"path":"folders/Sprites/Environment.yy",},

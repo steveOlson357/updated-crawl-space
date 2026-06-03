@@ -7,10 +7,18 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"instance_player","path":"rooms/Platform_Sidescroll/Platform_Sidescroll.yy",},
+    {"name":"inst_31CE9B1D","path":"rooms/Platform_Sidescroll/Platform_Sidescroll.yy",},
+    {"name":"inst_50E32B40","path":"rooms/Platform_Sidescroll/Platform_Sidescroll.yy",},
+    {"name":"inst_2E6DEFA1","path":"rooms/Platform_Sidescroll/Platform_Sidescroll.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRTileLayer":"","%Name":"Tiles_Platforms","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Platforms","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":200,"TileCompressedData":[
+    {"$GMRInstanceLayer":"","%Name":"Instances_Enemies","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_31CE9B1D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31CE9B1D","objectId":{"name":"ZapFly","path":"objects/ZapFly/ZapFly.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":288.0,},
+        {"$GMRInstance":"v4","%Name":"inst_50E32B40","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50E32B40","objectId":{"name":"ZapFly","path":"objects/ZapFly/ZapFly.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":512.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2E6DEFA1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E6DEFA1","objectId":{"name":"ZapFly","path":"objects/ZapFly/ZapFly.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":448.0,},
+      ],"layers":[],"name":"Instances_Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRTileLayer":"","%Name":"Tiles_Platforms","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Platforms","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":200,"TileCompressedData":[
           -6,-2147483648,-4,0,-7,-2147483648,-4,0,-3,-2147483648,-4,0,-178,-2147483648,-4,0,-7,-2147483648,-4,
           0,-3,-2147483648,-6,0,-176,-2147483648,-4,0,-7,-2147483648,-4,0,-3,-2147483648,-6,0,-170,-2147483648,
           -2,0,-23,-2147483648,-5,0,-170,-2147483648,-2,0,-2,-2147483648,-4,0,-17,-2147483648,-4,0,-171,-2147483648,
@@ -64,10 +72,10 @@
           -56,0,-2,-2147483648,-4,0,-138,-2147483648,-54,0,-4,-2147483648,-4,0,-138,-2147483648,-45,0,-4,-2147483648,
           -4,0,-147,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet_Platform","path":"tilesets/TileSet_Platform/TileSet_Platform.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRInstanceLayer":"","%Name":"Instances_Player","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"$GMRInstanceLayer":"","%Name":"Instances_Player","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"instance_player","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"instance_player","objectId":{"name":"Object_Player","path":"objects/Object_Player/Object_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":384.0,},
       ],"layers":[],"name":"Instances_Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":"_filter_old_film","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":"_filter_old_film","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
         {"name":"g_OldFilmFlickerIntensity","type":0,"value":"0.2",},
         {"name":"g_OldFilmFlickerSpeed","type":0,"value":"1.25",},
         {"name":"g_OldFilmJitterIntensity","type":0,"value":"4",},
