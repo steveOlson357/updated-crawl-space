@@ -23,22 +23,16 @@ if (keyboard_check_pressed(vk_up) ){
 }
 
 
-
-//if (keyboard_check_pressed(vk_up) ){
-//	move_and_collide(0, -Object_Player.sprite_height * .75, PlatformTileCollisions);
-	
-//}
-
-
-
-
-
-
-
 // check for platforms
 move_and_collide(move_x, move_y, PlatformTileCollisions);
 
 
 // set height limit for player death for falling out of the room
 
+
+
 // health check for room reset
+
+if (player_attributes.player_hp <= 0) {
+	room_restart()
+}

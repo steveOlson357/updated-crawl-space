@@ -14,4 +14,5 @@ player_attributes = {
 platform_layer_id = layer_get_id( "Tiles_Platforms");
 PlatformTileCollisions = layer_tilemap_get_id(platform_layer_id);
 
+DEFAULT_ATTRIBUTES = player_attributes;
 
