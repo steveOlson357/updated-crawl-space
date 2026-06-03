@@ -48,6 +48,16 @@ if y > (room_height + sprite_height) {
 	room_restart()
 }
 
+// check for enemy attack, applies damage then evaluates for damage or death animations
+if place_meeting(x, y, ZapFly) {
+	player_attributes.player_hp -= ZapFly.strength
+	
+	if (player_attributes.player_hp > 0) {
+		move_x = 0;
+		move_y = 0
+		// add damage sprite
+	}
+}
 
 // health check for room reset
 if (player_attributes.player_hp <= 0) {
