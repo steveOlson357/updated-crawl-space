@@ -2,7 +2,7 @@
 
 step_ctr = irandom_range(200, 1000);
 hp = 100; 
-strength = 5;
+strength = 2;
 spd = 3;
 
 // functions 

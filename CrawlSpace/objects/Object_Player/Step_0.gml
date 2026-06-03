@@ -54,9 +54,12 @@ if place_meeting(x, y, ZapFly) {
 	
 	if (player_attributes.player_hp > 0) {
 		move_x = 0;
-		move_y = 0
-		sprite_index = BlueMarineDamaged
+		move_y = 0;
+		sprite_index = BlueMarineDamaged;
+		alarm[0] = 30;
 	}
+	
+	
 }
 
 // health check for room reset
