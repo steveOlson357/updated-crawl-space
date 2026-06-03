@@ -30,6 +30,10 @@ move_and_collide(move_x, move_y, PlatformTileCollisions);
 // set height limit for player death for falling out of the room
 
 
+if y > (room_height + sprite_height) {
+	room_restart()
+}
+
 
 // health check for room reset
 

@@ -1,5 +1,7 @@
 // Attributes, mutable (struct) and immutable (const)
 
+
+
 player_attributes = {
 		height : sprite_height,
 		width : sprite_width,
@@ -9,6 +11,7 @@ player_attributes = {
 		enemies : [],
 		jump_counter : 0,
 		jump : 0.75 * sprite_height
+		
 	};
 	
 platform_layer_id = layer_get_id( "Tiles_Platforms");
