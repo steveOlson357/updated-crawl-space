@@ -4,11 +4,11 @@ player_attributes = {
 		height : sprite_height,
 		width : sprite_width,
 		player_hp : 100, 
-		player_speed : 1.5,
+		player_speed : 2,
 		player_fall_speed: 2,
 		enemies : [],
 		jump_counter : 0,
-		jump : 0.15 * sprite_height
+		jump : 0.75 * sprite_height
 	};
 	
 platform_layer_id = layer_get_id( "Tiles_Platforms");
