@@ -2,12 +2,16 @@
 move_x = ((keyboard_check(vk_right) - keyboard_check(vk_left)) * player_attributes.player_speed);
 move_y = (player_attributes.player_fall_speed);
 
+// firing
+if keyboard_check_pressed(vk_space) {
+	instance_create_layer(x + sign(Object_Player.image_xscale)*50, y + 30, "Instances_Player", obj_laser, {speed: (sign(Object_Player.image_xscale)*10) });
+}
+
 
 // Reset jump counter if on solid surface
 if(place_meeting(x, y + 2, PlatformTileCollisions)) {
 	player_attributes.jump_counter = 0;
 }	
-
 
 
 // Jump
@@ -28,15 +32,12 @@ move_and_collide(move_x, move_y, PlatformTileCollisions);
 
 
 // set height limit for player death for falling out of the room
-
-
 if y > (room_height + sprite_height) {
 	room_restart()
 }
 
 
 // health check for room reset
-
 if (player_attributes.player_hp <= 0) {
 	room_restart()
 }

@@ -1,0 +1,2 @@
+instance_create_layer(x + sign(Object_Player.image_xscale)*50, y + 30, "Instances_Player", obj_laser, {speed: (sign(Object_Player.image_xscale)*10) });
+//obj_laser.speed = (sign(Player.image_xscale) * 10);
