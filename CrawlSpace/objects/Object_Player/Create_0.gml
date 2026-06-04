@@ -10,7 +10,7 @@ player_attributes = {
 		player_fall_speed: 2,
 		enemies : [],
 		jump_counter : 0,
-		jump : 0.75 * sprite_height
+		jump : 1.25 * sprite_height
 		
 	};
 	
@@ -21,3 +21,4 @@ DEFAULT_ATTRIBUTES = player_attributes;
 
 // keep consistent sprite area
 mask_index = Sprite_Player;
+

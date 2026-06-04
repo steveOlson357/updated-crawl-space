@@ -25,6 +25,7 @@
   ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gm_filter_old_film-1.0.0","name":"io.gamemaker.gm_filter_old_film-1.0.0","path":"io.gamemaker.gm_filter_old_film-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_effect_windblown_particles-1.0.0","name":"io.gamemaker.gm_effect_windblown_particles-1.0.0","path":"io.gamemaker.gm_effect_windblown_particles-1.0.0.yyp",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
@@ -39,6 +40,7 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"ZapFly","path":"objects/ZapFly/ZapFly.yy",},},
     {"id":{"name":"Platform_Sidescroll","path":"rooms/Platform_Sidescroll/Platform_Sidescroll.yy",},},
+    {"id":{"name":"Single_view","path":"rooms/Single_view/Single_view.yy",},},
     {"id":{"name":"scr_enemy","path":"scripts/scr_enemy/scr_enemy.yy",},},
     {"id":{"name":"BlueMarineDamaged","path":"sprites/BlueMarineDamaged/BlueMarineDamaged.yy",},},
     {"id":{"name":"BlueMarineWaiting","path":"sprites/BlueMarineWaiting/BlueMarineWaiting.yy",},},
@@ -53,6 +55,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Single_view","path":"rooms/Single_view/Single_view.yy",},},
     {"roomId":{"name":"Platform_Sidescroll","path":"rooms/Platform_Sidescroll/Platform_Sidescroll.yy",},},
   ],
   "templateType":"game",

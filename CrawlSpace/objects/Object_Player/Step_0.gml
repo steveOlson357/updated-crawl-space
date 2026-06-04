@@ -2,6 +2,8 @@
 move_x = ((keyboard_check(vk_right) - keyboard_check(vk_left)) * player_attributes.player_speed);
 move_y = player_attributes.player_fall_speed
 
+// wraps around room
+move_wrap(true, false, (sprite_width * 0.1))
 
 // Flips player sprite to match direction
 if(move_x != 0) {

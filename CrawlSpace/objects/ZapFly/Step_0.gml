@@ -29,3 +29,6 @@ if (step_ctr <= 1) {
 	
 	step_ctr = irandom_range(300, 800);
 };
+
+// wrap both horiz and vert
+move_wrap(true, true, sprite_width * 0.1)
