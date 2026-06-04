@@ -8,7 +8,7 @@ player_attributes = {
 		player_hp : 100, 
 		player_speed : 4,
 		player_fall_speed: 2,
-		enemies : [ZapFly],
+		enemies : [],
 		jump_counter : 0,
 		jump : 0.75 * sprite_height
 		
@@ -19,3 +19,5 @@ PlatformTileCollisions = layer_tilemap_get_id(platform_layer_id);
 
 DEFAULT_ATTRIBUTES = player_attributes;
 
+// keep consistent sprite area
+mask_index = Sprite_Player;
