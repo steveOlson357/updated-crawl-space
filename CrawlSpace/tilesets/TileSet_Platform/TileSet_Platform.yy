@@ -20,8 +20,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"CrawlSpace",
-    "path":"CrawlSpace.yyp",
+    "name":"Environment",
+    "path":"folders/Sprites/Environment.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

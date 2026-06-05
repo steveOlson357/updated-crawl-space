@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"Sprite_Platform",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
   "bbox_left":1,
   "bbox_right":63,
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"CrawlSpace",
-    "path":"CrawlSpace.yyp",
+    "name":"Environment",
+    "path":"folders/Sprites/Environment.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
