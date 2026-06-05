@@ -49,7 +49,6 @@
     {"id":{"name":"Sprite_backgroundImage","path":"sprites/Sprite_backgroundImage/Sprite_backgroundImage.yy",},},
     {"id":{"name":"Sprite_Platform","path":"sprites/Sprite_Platform/Sprite_Platform.yy",},},
     {"id":{"name":"Sprite_Player","path":"sprites/Sprite_Player/Sprite_Player.yy",},},
-    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
     {"id":{"name":"TileSet_Platform","path":"tilesets/TileSet_Platform/TileSet_Platform.yy",},},
   ],
   "resourceType":"GMProject",
