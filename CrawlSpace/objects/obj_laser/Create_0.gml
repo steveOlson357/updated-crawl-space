@@ -8,14 +8,9 @@ laser_width = sprite_width;
 
 move_y = 0;
 
-// enemies that will damage player
-enemies = ZapFly;
-
 // solid objects like platforms and walls
 platform_layer_id = layer_get_id( "Tiles_Platforms");
 PlatformTileCollisions = layer_tilemap_get_id(platform_layer_id);
 
-interacts_with = [PlatformTileCollisions, enemies];
-
-
+interacts_with = [PlatformTileCollisions, ZapFly];
 
