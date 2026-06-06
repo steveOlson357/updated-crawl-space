@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"Single_view",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/Single_view/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -123,7 +123,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":420,"hspeed":1,"hview":420,"inherit":false,"objectId":{"name":"Object_Player","path":"objects/Object_Player/Object_Player.yy",},"vborder":32,"visible":false,"vspeed":1,"wport":720,"wview":720,"xport":0,"xview":0,"yport":250,"yview":250,},
+    {"hborder":32,"hport":150,"hspeed":1,"hview":1500,"inherit":false,"objectId":{"name":"Object_Player","path":"objects/Object_Player/Object_Player.yy",},"vborder":32,"visible":false,"vspeed":1,"wport":100,"wview":1300,"xport":0,"xview":0,"yport":250,"yview":0,},
     {"hborder":200,"hport":800,"hspeed":-1,"hview":1500,"inherit":false,"objectId":{"name":"Object_Player","path":"objects/Object_Player/Object_Player.yy",},"vborder":150,"visible":true,"vspeed":-1,"wport":750,"wview":1300,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
