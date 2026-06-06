@@ -24,10 +24,10 @@ function scr_scale_canvas_aspect(){
 	window_center();
 	
 	// fit viewport and camera bounds
-	view_wport[2] = ideal_width;
-	view_hport[2] = ideal_height;
+	view_wport[1] = ideal_width;
+	view_hport[1] = ideal_height;
 	
-	camera_set_view_size(view_camera[2], base_width, base_height)
+	camera_set_view_size(view_camera[1], base_width, base_height)
 	
 	// resize render surface to match new canvas layout
 	// use application_surface, ideal w/h 
