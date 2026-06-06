@@ -19,6 +19,7 @@ if place_meeting(x, y, obj_laser) {
 
 		instance_destroy();
 		
+		
 }
 
 step_ctr = step_ctr - 1; 
