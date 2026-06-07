@@ -11,7 +11,7 @@ if(move_x != 0) {
 }
 
 // firing
-if keyboard_check_pressed(vk_space) {
+if ( keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_down) ) {
 	// create laser 
 	instance_create_layer(
 		x + (sign(Object_Player.image_xscale) * 10), 
