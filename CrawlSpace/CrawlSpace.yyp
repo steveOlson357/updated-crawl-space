@@ -48,6 +48,7 @@
     {"id":{"name":"ZapFly","path":"objects/ZapFly/ZapFly.yy",},},
     {"id":{"name":"Platform_Sidescroll","path":"rooms/Platform_Sidescroll/Platform_Sidescroll.yy",},},
     {"id":{"name":"Single_view","path":"rooms/Single_view/Single_view.yy",},},
+    {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"scr_destroy","path":"scripts/scr_destroy/scr_destroy.yy",},},
     {"id":{"name":"scr_enemy","path":"scripts/scr_enemy/scr_enemy.yy",},},
     {"id":{"name":"scr_fire_zap_gun","path":"scripts/scr_fire_zap_gun/scr_fire_zap_gun.yy",},},

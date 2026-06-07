@@ -1,1 +1,1 @@
-global.vkey_left = virtual_key_add(x, y, sprite_width, sprite_height, vk_left);
+global.vkey_left = virtual_key_add(x, y, 150, 150, vk_left);
