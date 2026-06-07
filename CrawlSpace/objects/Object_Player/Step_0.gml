@@ -11,15 +11,8 @@ if(move_x != 0) {
 }
 
 // firing
-if ( keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_down) ) {
-	// create laser 
-	instance_create_layer(
-		x + (sign(Object_Player.image_xscale) * 10), 
-		y - 16, "Instances_Player", obj_laser, 
-		{
-			speed: (sign(Object_Player.image_xscale)*10) 
-			}
-			)
+if ( keyboard_check_pressed(vk_space) ) {
+	scr_fire_zap_gun();
 }
 
 
