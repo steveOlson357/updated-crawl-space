@@ -7,7 +7,7 @@ player_attributes = {
 		width : sprite_width,
 		player_hp : 100, 
 		player_speed : 4,
-		player_fall_speed: 2,
+		player_fall_speed: 2.5,
 		enemies : [],
 		jump_counter : 0,
 		jump : 1.25 * sprite_height
