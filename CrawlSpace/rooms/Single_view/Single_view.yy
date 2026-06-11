@@ -13,10 +13,6 @@
     {"name":"inst_7E03270","path":"rooms/Single_view/Single_view.yy",},
     {"name":"inst_17DCB516","path":"rooms/Single_view/Single_view.yy",},
     {"name":"inst_2C72910","path":"rooms/Single_view/Single_view.yy",},
-    {"name":"inst_26E8E9BD","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_6A42870E","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_10CF1E31","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_39057B12","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
