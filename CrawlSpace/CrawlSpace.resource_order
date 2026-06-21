@@ -7,6 +7,7 @@
     {"name":"Interactive","order":2,"path":"folders/Objects/Interactive.yy",},
     {"name":"Rooms","order":11,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":12,"path":"folders/Scripts.yy",},
+    {"name":"Action Scripts","order":4,"path":"folders/Scripts/Action Scripts.yy",},
     {"name":"Player Scripts","order":3,"path":"folders/Scripts/Player Scripts.yy",},
     {"name":"Sprites","order":10,"path":"folders/Sprites.yy",},
     {"name":"Character Sprites","order":3,"path":"folders/Sprites/Character Sprites.yy",},
