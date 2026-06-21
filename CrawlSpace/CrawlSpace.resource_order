@@ -21,6 +21,7 @@
     {"name":"obj_jump_button","order":3,"path":"objects/obj_jump_button/obj_jump_button.yy",},
     {"name":"obj_left_arrow","order":1,"path":"objects/obj_left_arrow/obj_left_arrow.yy",},
     {"name":"obj_right_arrow","order":2,"path":"objects/obj_right_arrow/obj_right_arrow.yy",},
+    {"name":"obj_room_manager","order":1,"path":"objects/obj_room_manager/obj_room_manager.yy",},
     {"name":"Object_Player","order":1,"path":"objects/Object_Player/Object_Player.yy",},
     {"name":"Single_view","order":1,"path":"rooms/Single_view/Single_view.yy",},
     {"name":"RoomUI","order":13,"path":"roomui/RoomUI/RoomUI.yy",},
