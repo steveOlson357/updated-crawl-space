@@ -2,3 +2,5 @@
 if ( variable_global_exists("ui_struct") ) {
 	flexpanel_create_node(global.ui_struct);
 };
+
+
