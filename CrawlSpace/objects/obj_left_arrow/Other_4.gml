@@ -1,0 +1,1 @@
+global.vkey_left = virtual_key_add(x, y, 150, 150, vk_left);

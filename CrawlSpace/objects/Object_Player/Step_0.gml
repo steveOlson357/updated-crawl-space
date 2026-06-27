@@ -11,15 +11,8 @@ if(move_x != 0) {
 }
 
 // firing
-if keyboard_check_pressed(vk_space) {
-	// create laser 
-	instance_create_layer(
-		x + (sign(Object_Player.image_xscale) * 10), 
-		y - 16, "Instances_Player", obj_laser, 
-		{
-			speed: (sign(Object_Player.image_xscale)*10) 
-			}
-			)
+if ( keyboard_check_pressed(vk_space) ) {
+	scr_fire_zap_gun();
 }
 
 
@@ -27,17 +20,7 @@ if keyboard_check_pressed(vk_space) {
 if (keyboard_check_pressed(vk_up) ){
 	
 	
-	// Reset jump counter if on solid surface
-	if(place_meeting(x, y + 2, PlatformTileCollisions)) {
-		player_attributes.jump_counter = 0;
-	}	
-	
-	if (player_attributes.jump_counter <= 1) {
-		// show_debug_message("Jump counter: " + string(jump_counter));
-		// add to counter to allow only double jumps
-		move_y = -(player_attributes.jump) ;
-		player_attributes.jump_counter++;
-	} 
+scr_player_jump();
 
 }
 
@@ -48,25 +31,20 @@ move_and_collide(move_x, move_y, PlatformTileCollisions);
 
 // set height limit for player death for falling out of the room
 if y > (room_height + sprite_height) {
+	show_debug_message("player fell")
 	room_restart()
 }
 
 // check for enemy attack, applies damage then evaluates for damage or death animations
 if place_meeting(x, y, ZapFly) {
-	player_attributes.player_hp -= ZapFly.strength
-	
-	if (player_attributes.player_hp > 0) {
-		move_x = 0;
-		move_y = 0;
-		
-		sprite_index = BlueMarineDamaged;
-		alarm[0] = 30;
-	}
+
+scr_player_hit(ZapFly);
 	
 	
 }
 
 // health check for room reset
 if (player_attributes.player_hp <= 0) {
+	show_debug_message("player died")
 	room_restart()
 }
