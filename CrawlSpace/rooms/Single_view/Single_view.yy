@@ -12,12 +12,12 @@
     {"name":"inst_2E6DEFA1_1","path":"rooms/Single_view/Single_view.yy",},
     {"name":"inst_7E03270","path":"rooms/Single_view/Single_view.yy",},
     {"name":"inst_17DCB516","path":"rooms/Single_view/Single_view.yy",},
-    {"name":"inst_2C72910","path":"rooms/Single_view/Single_view.yy",},
     {"name":"inst_6A283CB9","path":"rooms/Single_view/Single_view.yy",},
     {"name":"inst_3DA41DF0","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_212651EF","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_719367C7","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_1CEE0A0F","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_2C72910","path":"rooms/Single_view/Single_view.yy",},
   ],
   "isDnd":false,
   "layers":[

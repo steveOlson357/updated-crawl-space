@@ -13,7 +13,7 @@ function scr_scale_canvas_aspect(){
 		ideal_width = round(browser_height * game_aspect)
 	} else {
 		// else, browser is too tall, limit height same way
-		ideal_height = round(browser_width * game_aspect)
+		ideal_height = round(1.75 * (browser_width * game_aspect))
 	}
 	
 	
