@@ -54,7 +54,6 @@
     {"id":{"name":"scr_destroy","path":"scripts/scr_destroy/scr_destroy.yy",},},
     {"id":{"name":"scr_enemy","path":"scripts/scr_enemy/scr_enemy.yy",},},
     {"id":{"name":"scr_fire_zap_gun","path":"scripts/scr_fire_zap_gun/scr_fire_zap_gun.yy",},},
-    {"id":{"name":"scr_handle_ui_room_reset","path":"scripts/scr_handle_ui_room_reset/scr_handle_ui_room_reset.yy",},},
     {"id":{"name":"scr_player_hit","path":"scripts/scr_player_hit/scr_player_hit.yy",},},
     {"id":{"name":"scr_player_jump","path":"scripts/scr_player_jump/scr_player_jump.yy",},},
     {"id":{"name":"scr_scale_canvas_aspect","path":"scripts/scr_scale_canvas_aspect/scr_scale_canvas_aspect.yy",},},

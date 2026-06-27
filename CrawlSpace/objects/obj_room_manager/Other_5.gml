@@ -1,5 +1,6 @@
-// when room ends, call script to set global variable for reset and destroy old UI 
+// when room ends, set ui iD to global variable and set visibility to false
+// keeps game from crashing when room resets
 
-show_debug_message("room end event triggered before unhandled exception")
+global.get_layer_id = layer_get_id("UILayer_controls")
+layer_set_visible(global.get_layer_id, false)
 
-global.ui_struct = scr_handle_ui_room_reset("UILayer_controls");

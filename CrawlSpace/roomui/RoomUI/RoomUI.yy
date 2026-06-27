@@ -1,24 +1,7 @@
 {
   "$GMRoomUI":"",
   "%Name":"RoomUI",
-  "children":[
-    {"$GMRUILayer":"v1","%Name":"UILayer_controls","alignItems":3,"children":[
-        {"$GMRFlexPanel":"","%Name":"FlexPanel_Controls","alignContent":7,"alignItems":2,"children":[
-            {"$GMRFlexPanel":"","%Name":"FlexPanel_Jump","alignItems":2,"children":[
-                {"$GMRInstance":"v4","%Name":"inst_3DA41DF0","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DA41DF0","objectId":{"name":"obj_jump_button","path":"objects/obj_jump_button/obj_jump_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-              ],"flexDirection":0,"height":{"unit":1,"value":200.0,},"justifyContent":4,"name":"FlexPanel_Jump","nodeColour":4294104392,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":200.0,},},
-            {"$GMRFlexPanel":"","%Name":"FlexPanel_Fire","alignItems":2,"children":[
-                {"$GMRInstance":"v4","%Name":"inst_212651EF","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_212651EF","objectId":{"name":"obj_fire_button","path":"objects/obj_fire_button/obj_fire_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-              ],"flexDirection":0,"height":{"unit":1,"value":200.0,},"justifyContent":1,"name":"FlexPanel_Fire","nodeColour":4288956658,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":200.0,},},
-            {"$GMRFlexPanel":"","%Name":"FlexPanel_Left","alignItems":2,"children":[
-                {"$GMRInstance":"v4","%Name":"inst_719367C7","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_719367C7","objectId":{"name":"obj_left_arrow","path":"objects/obj_left_arrow/obj_left_arrow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-              ],"flexDirection":0,"height":{"unit":1,"value":200.0,},"justifyContent":1,"name":"FlexPanel_Left","nodeColour":4282970738,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":200.0,},},
-            {"$GMRFlexPanel":"","%Name":"FlexPanel_Right","alignItems":2,"children":[
-                {"$GMRInstance":"v4","%Name":"inst_1CEE0A0F","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CEE0A0F","objectId":{"name":"obj_right_arrow","path":"objects/obj_right_arrow/obj_right_arrow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-              ],"flexDirection":0,"height":{"unit":1,"value":200.0,},"justifyContent":1,"name":"FlexPanel_Right","nodeColour":4282965490,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":200.0,},},
-          ],"flexDirection":2,"flexWrap":1,"height":{"unit":1,"value":241.0,},"justifyContent":4,"name":"FlexPanel_Controls","nodeColour":4294068395,"positionBottom":{"unit":1,"value":75.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":999.0,},},
-      ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_controls","nodeColour":4294068306,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
-  ],
+  "children":[],
   "locked":false,
   "name":"RoomUI",
   "parent":{
@@ -27,6 +10,23 @@
   },
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",
-  "viewspaceChildren":[],
+  "viewspaceChildren":[
+    {"$GMRUILayer":"v1","%Name":"UILayer_controls","alignItems":3,"children":[
+        {"$GMRFlexPanel":"","%Name":"FlexPanel_Controls","alignContent":7,"alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"FlexPanel_Left","alignItems":2,"children":[
+                {"$GMRInstance":"v4","%Name":"inst_719367C7","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_719367C7","objectId":{"name":"obj_left_arrow","path":"objects/obj_left_arrow/obj_left_arrow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":1,"value":200.0,},"justifyContent":1,"name":"FlexPanel_Left","nodeColour":4282970738,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":200.0,},},
+            {"$GMRFlexPanel":"","%Name":"FlexPanel_Right","alignItems":2,"children":[
+                {"$GMRInstance":"v4","%Name":"inst_1CEE0A0F","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CEE0A0F","objectId":{"name":"obj_right_arrow","path":"objects/obj_right_arrow/obj_right_arrow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":1,"value":200.0,},"justifyContent":1,"name":"FlexPanel_Right","nodeColour":4282965490,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":200.0,},},
+            {"$GMRFlexPanel":"","%Name":"FlexPanel_Jump","alignItems":2,"children":[
+                {"$GMRInstance":"v4","%Name":"inst_3DA41DF0","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DA41DF0","objectId":{"name":"obj_jump_button","path":"objects/obj_jump_button/obj_jump_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":1,"value":200.0,},"justifyContent":4,"name":"FlexPanel_Jump","nodeColour":4294104392,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":200.0,},},
+            {"$GMRFlexPanel":"","%Name":"FlexPanel_Fire","alignItems":2,"children":[
+                {"$GMRInstance":"v4","%Name":"inst_212651EF","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_212651EF","objectId":{"name":"obj_fire_button","path":"objects/obj_fire_button/obj_fire_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":1,"value":200.0,},"justifyContent":1,"name":"FlexPanel_Fire","nodeColour":4288956658,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":200.0,},},
+          ],"flexDirection":2,"flexWrap":1,"height":{"unit":1,"value":241.0,},"justifyContent":4,"name":"FlexPanel_Controls","nodeColour":4294068395,"positionBottom":{"unit":1,"value":75.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":999.0,},},
+      ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_controls","nodeColour":4294068306,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+  ],
   "visible":true,
 }
