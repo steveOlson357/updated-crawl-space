@@ -19,9 +19,9 @@ show_debug_message($"OBJ LEFT ARROW ROOM START DEBUG MESSAGE: Controls flex pane
 
 // must run calculate on node, not struct, then can get position
 
-flexpanel_calculate_layout(_flex_left_control_node, room_width, room_height, flexpanel_direction.LTR)
+flexpanel_calculate_layout(_flex_left_control_node, room_width, room_height, flexpanel_direction.LTR, false)
 
-var _flexpanel_position_struct = flexpanel_node_layout_get_position(_flex_left_control_node)
+_flexpanel_position_struct = flexpanel_node_layout_get_position(_flex_left_control_node)
 
 
 show_debug_message($"STRUCT FOR FLEX POSITION: {_flexpanel_position_struct}")

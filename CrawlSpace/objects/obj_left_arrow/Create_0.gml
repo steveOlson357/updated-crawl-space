@@ -1,0 +1,1 @@
+show_debug_message( $"Left arrow object create event here. bbox variables for left, top, right, bottom:  {bbox_left}, {bbox_top}, {bbox_right}, {bbox_bottom}" )
