@@ -1,7 +1,7 @@
 
 // Handle mouse click
 
-if ( mouse_check_button_pressed(mb_left) ) {
+
 	
 	// mouse position on click saved to variables
 	gui_mouse_x = device_mouse_x_to_gui(0)
@@ -36,8 +36,16 @@ if ( mouse_check_button_pressed(mb_left) ) {
 	gui_bottom = (btn_bottom) * ratio_y
 
 
-	if ( point_in_rectangle(gui_mouse_x, gui_mouse_y, gui_left, gui_top, gui_right, gui_bottom) ){
-		show_debug_message("Left button pressed!") 
+	hover = point_in_rectangle(gui_mouse_x, gui_mouse_y, gui_left, gui_top, gui_right, gui_bottom) 
+	
+	if (hover && device_mouse_check_button(0, mb_left)) {
+		if (!is_pressed) {
+			keyboard_key_press(vk_left)
+			is_pressed = true
+		}
+	} else {
+		if (is_pressed) {
+			keyboard_key_release(vk_left)
+			is_pressed = false
+		}
 	}
-}
-
