@@ -28,11 +28,12 @@ if ( mouse_check_button_pressed(mb_left) ) {
 	btn_top = bbox_top
 	btn_bottom = bbox_bottom
 	
-	// convert to gui goordinates by subtracting camera value and multiply by ratio
-	gui_left = (btn_left - camera_x) * ratio_x
-	gui_right = (btn_right - camera_x) * ratio_x
-	gui_top =  (btn_top - camera_y) * ratio_y
-	gui_bottom = (btn_bottom - camera_y) * ratio_y
+	// convert to match gui with ratio
+	
+	gui_left = (btn_left) * ratio_x
+	gui_right = (btn_right) * ratio_x
+	gui_top =  (btn_top) * ratio_y
+	gui_bottom = (btn_bottom) * ratio_y
 	
 	
 
