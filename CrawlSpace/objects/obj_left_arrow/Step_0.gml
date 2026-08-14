@@ -34,22 +34,8 @@ if ( mouse_check_button_pressed(mb_left) ) {
 	gui_right = (btn_right) * ratio_x
 	gui_top =  (btn_top) * ratio_y
 	gui_bottom = (btn_bottom) * ratio_y
-	
-	
 
-	// Verify mouse coordinates
-	show_debug_message( $"Mouse: {gui_mouse_x},{gui_mouse_y}" ) // shows correct when testing screen resizing
-	
-	// verify camera coordinates
-	show_debug_message( $"camera position: {camera_x}, {camera_y}" )// correct when moving as well
-	
-	// verify gui width 
-	show_debug_message( $"GUI w/h and ratios: {gui_width}, {gui_height}. width ratio is {ratio_x} height is {ratio_y}" )
-	
-	// verify calculated gui values
-	show_debug_message($"Gui button box:  {gui_left}, {gui_top} , {gui_right}, {gui_bottom}")	
-	
-	// if the translated mouse coordinates match the button area coordinates, success message
+
 	if ( point_in_rectangle(gui_mouse_x, gui_mouse_y, gui_left, gui_top, gui_right, gui_bottom) ){
 		show_debug_message("Left button pressed!") 
 	}
