@@ -1,6 +1,6 @@
-// Handle mouse click
-
-
+/******************************************************
+**************FIRE BUTTON STEP EVENT*******************
+******************************************************/
 	
 	// mouse position on click saved to variables
 	gui_mouse_x = device_mouse_x_to_gui(0)

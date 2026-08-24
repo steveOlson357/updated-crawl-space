@@ -1,6 +1,11 @@
-// Handle mouse click
+/******************************************************
+**************jUMP BUTTON STEP EVENT*******************
+******************************************************/
+
 
 // allow multi touch input by looking for any possible (0-4) 'devices' assigned in order of activity
+
+
 
 for ( var input_detected = 0; input_detected < 5; input_detected++ ) {
 	
@@ -38,19 +43,13 @@ for ( var input_detected = 0; input_detected < 5; input_detected++ ) {
 	gui_top =  (btn_top) * ratio_y
 	gui_bottom = (btn_bottom) * ratio_y
 
-
+	// when the input matches up with the adjsuted gui, virtually activate the keyboard input
 	hover = point_in_rectangle(gui_mouse_x, gui_mouse_y, gui_left, gui_top, gui_right, gui_bottom) 
 	
-	if (hover && device_mouse_check_button(_id, mb_left)) {
-		if (!is_pressed) {
-			keyboard_key_press(vk_up)
-			is_pressed = true
-		}
-	} else {
-		if (is_pressed) {
-			keyboard_key_release(vk_up)
-			is_pressed = false
-		}
+	if ( hover && device_mouse_check_button_pressed(_id, mb_left) ) {
+		keyboard_key_press(vk_up)
+		
 	}
+	keyboard_key_release(vk_up)
 	
 }
