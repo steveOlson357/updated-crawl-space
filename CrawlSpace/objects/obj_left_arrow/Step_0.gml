@@ -1,7 +1,9 @@
 
 // Handle mouse click
 
-
+for ( var input_detected = 0; input_detected < 5; input_detected++ ) {
+	
+	var _id = input_detected
 	
 	// mouse position on click saved to variables
 	gui_mouse_x = device_mouse_x_to_gui(0)
@@ -39,6 +41,7 @@
 	hover = point_in_rectangle(gui_mouse_x, gui_mouse_y, gui_left, gui_top, gui_right, gui_bottom) 
 	
 	if (hover && device_mouse_check_button(0, mb_left)) {
+		
 		if (!is_pressed) {
 			keyboard_key_press(vk_left)
 			is_pressed = true
@@ -49,3 +52,4 @@
 			is_pressed = false
 		}
 	}
+}
