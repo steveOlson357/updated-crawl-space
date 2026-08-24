@@ -2,6 +2,8 @@ function scr_scale_canvas_aspect(){
 	var browser_aspect = browser_width / browser_height;
 	var game_aspect = base_width / base_height;
 	
+	var camera_aspect = camera_width / camera_height;
+	
 	var ideal_width = browser_width;
 	var ideal_height = browser_height;
 	
@@ -13,7 +15,7 @@ function scr_scale_canvas_aspect(){
 		ideal_width = round(browser_height * game_aspect)
 	} else {
 		// else, browser is too tall, limit height same way
-		ideal_height = round(browser_width * game_aspect)
+		ideal_height = round(1.75 * (browser_width * game_aspect))
 	}
 	
 	
@@ -27,11 +29,11 @@ function scr_scale_canvas_aspect(){
 	view_wport[1] = ideal_width;
 	view_hport[1] = ideal_height;
 	
-	camera_set_view_size(view_camera[1], base_width, base_height)
+	//camera_set_view_size(view_camera[0], camera_width, camera_height)
 	
 	// resize render surface to match new canvas layout
 	// use application_surface, ideal w/h 
 	surface_resize(application_surface, ideal_width, ideal_height)
 	
-	display_set_gui_size(base_width, base_height)
+	//display_set_gui_size(ideal_width, ideal_height)
 }
