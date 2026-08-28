@@ -4,7 +4,7 @@
 Can you blast all the *Zap Flies* before they spawn reinforcements?! 
 ---
 
-**🎮 Play Instant in Browser:** https://techbytrade.itch.io/
+**🎮 Play Instant in Browser:** https://techbytrade.itch.io/crawl-space
 
 **🧪 Live Test Deployment:** https://steveolson357.github.io/
 
@@ -27,21 +27,13 @@ Controls:
 ## 🚀 Executive Summary
 A browser-based retro arcade style game built entirely for zero-install, instant-web execution, **Crawl Space** brings the nostalgia of the classic arcade games that pioneered the industry and takes you on a brand new all original space adventure!
 
-While presented as a game, the underlying codebase serves dual purpose as a technical demonstration of **Senior-level architecture, automated test suites, and strict Git version control workflows**. 
+While presented as a game, the underlying codebase serves dual purpose as a technical demonstration of **Senior-level architecture, methodical multi-tier QA protocols, and strict Git version control workflows**. 
 
 ### 🛠️ Core Technology Stack
 * **Language/Engine:** GameMaker with custom GML code
 * **Architecture Style:** Component-based event handling and stateful object interactions
 * **Testing Framework:** Utilizes debugging and console log message testing, local network testing on multiple devices, and a live test GitHub deployment.
-* **CI/CD Pipeline:** The project is built and developed on this repository. Once local tests pass, the project is compiled and saved to a deployment repository that automatically updates the live test deployment, for final testing over WAN before deploying to the production page on <a href="https://techbytrade.itch.io" target="_blank" rel="noopener noreferrrer" >Itch</a>. 
-
----
-
-## 🏗️ Technical Architecture & Code Design
-
-* **State Mechanics:** Object instances utilize event listeners and properties to make updates to their state instead of a central hub of variables, ensuring data integrity and allowing individual instances to more cleanly step through code.  
-* **Asset & Logic Handling:** Input and data dynamically work together to track and update relative objects and vectors-mimicking the exact relationship between an industrial **HMI (Human-Machine Interface)** and a **PLC (Programmable Logic Controller)**.
-* **Optimization:** Created to work with dynamic viewports while maintaining app usability and created robust viewport/camera configuration with optional on-screen controls. 
+* **CI/CD Pipeline:** The project is built and developed on this repository. Once local tests pass, the project is compiled and saved to a deployment repository that automatically updates the live test deployment, for final testing over WAN before deploying to the production page on <a href="https://techbytrade.itch.io/crawl-space" target="_blank" rel="noopener noreferrrer" >Itch</a>. 
 
 ---
 
@@ -78,9 +70,13 @@ The software methodologies engineered into this browser application translate pe
 
 This application is built using the **GameMaker** engine, leveraging optimized, custom **GML (GameMaker Language)** code blocks rather than visual drag-and-drop actions to ensure maximum control over memory management and execution pipelines.
 
+* **State Mechanics:** Object instances utilize event listeners and properties to make updates to their state instead of a central hub of variables, ensuring data integrity and allowing individual instances to more cleanly step through code.  
+* **Asset & Logic Handling:** Input and data dynamically work together to track and update relative objects and vectors-mimicking the exact relationship between an industrial **HMI (Human-Machine Interface)** and a **PLC (Programmable Logic Controller)**.
+* **Optimization:** Created to work with dynamic viewports while maintaining app usability and created robust viewport/camera configuration with optional on-screen controls.
 * **Deterministic Step Loops & State Machinery:** Built around GameMaker's precise step-event architecture; Object interactions, velocity vectors, and coordinate calculations are computed systematically every frame, closely mirroring the cyclical scan cycles used in industrial **PLC automation loops**.
 * **Custom Event-Driven Logic:** Utilizes custom-coded scripts and instance-variable structures to handle inter-object communication, ensuring that system components stay decoupled and responsive.
 * **Efficient Memory & Collision Mapping:** Implements custom bounding box checks, layer management, and instance handling to ensure flawless performance directly in HTML5 browser environments.
+
 
 ---
 
