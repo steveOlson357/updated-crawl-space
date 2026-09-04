@@ -37,6 +37,8 @@
     {"name":"spr_right_arrow","order":4,"path":"sprites/spr_right_arrow/spr_right_arrow.yy",},
     {"name":"Sprite_Platform","order":1,"path":"sprites/Sprite_Platform/Sprite_Platform.yy",},
     {"name":"Sprite_Player","order":1,"path":"sprites/Sprite_Player/Sprite_Player.yy",},
+    {"name":"TileSheet","order":15,"path":"sprites/TileSheet/TileSheet.yy",},
     {"name":"TileSet_Platform","order":2,"path":"tilesets/TileSet_Platform/TileSet_Platform.yy",},
+    {"name":"TileSet2","order":14,"path":"tilesets/TileSet2/TileSet2.yy",},
   ],
 }
