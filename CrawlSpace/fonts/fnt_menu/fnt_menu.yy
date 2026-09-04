@@ -191,8 +191,8 @@
   "maintainGms1Font":false,
   "name":"fnt_menu",
   "parent":{
-    "name":"CrawlSpace",
-    "path":"CrawlSpace.yyp",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[
