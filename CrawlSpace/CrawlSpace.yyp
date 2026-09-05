@@ -77,8 +77,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Single_view","path":"rooms/Single_view/Single_view.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"Single_view","path":"rooms/Single_view/Single_view.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
