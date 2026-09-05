@@ -45,6 +45,7 @@
     {"id":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},},
     {"id":{"name":"obj_left_arrow","path":"objects/obj_left_arrow/obj_left_arrow.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
     {"id":{"name":"obj_resolution_manager","path":"objects/obj_resolution_manager/obj_resolution_manager.yy",},},
     {"id":{"name":"obj_right_arrow","path":"objects/obj_right_arrow/obj_right_arrow.yy",},},
     {"id":{"name":"obj_room_manager","path":"objects/obj_room_manager/obj_room_manager.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"ZapFly","path":"objects/ZapFly/ZapFly.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"id":{"name":"rm_pause","path":"rooms/rm_pause/rm_pause.yy",},},
     {"id":{"name":"Single_view","path":"rooms/Single_view/Single_view.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"in_range","path":"scripts/in_range/in_range.yy",},},
@@ -79,6 +81,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"Single_view","path":"rooms/Single_view/Single_view.yy",},},
+    {"roomId":{"name":"rm_pause","path":"rooms/rm_pause/rm_pause.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
