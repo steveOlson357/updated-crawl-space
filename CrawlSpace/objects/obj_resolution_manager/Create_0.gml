@@ -8,3 +8,4 @@ camera_height = camera_get_view_height(camera_id)
 
 last_browser_width = 0;
 last_browser_height = 0;
+

@@ -54,7 +54,7 @@
     {"id":{"name":"ZapFly","path":"objects/ZapFly/ZapFly.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_pause","path":"rooms/rm_pause/rm_pause.yy",},},
-    {"id":{"name":"Single_view","path":"rooms/Single_view/Single_view.yy",},},
+    {"id":{"name":"rm_single_view","path":"rooms/rm_single_view/rm_single_view.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"in_range","path":"scripts/in_range/in_range.yy",},},
     {"id":{"name":"scr_destroy","path":"scripts/scr_destroy/scr_destroy.yy",},},
@@ -80,7 +80,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"Single_view","path":"rooms/Single_view/Single_view.yy",},},
+    {"roomId":{"name":"rm_single_view","path":"rooms/rm_single_view/rm_single_view.yy",},},
     {"roomId":{"name":"rm_pause","path":"rooms/rm_pause/rm_pause.yy",},},
   ],
   "templateType":"game",

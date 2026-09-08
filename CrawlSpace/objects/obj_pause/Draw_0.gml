@@ -4,6 +4,7 @@ draw_set_valign(fa_middle)
 
 gap = 50
 
+
 for ( i = 0; i < pause_length; i++ ) {
 	if ( i == pause_index ) draw_set_colour(c_aqua)
 	else draw_set_color(c_green)

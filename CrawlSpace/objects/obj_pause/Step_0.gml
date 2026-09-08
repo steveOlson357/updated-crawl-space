@@ -22,12 +22,13 @@ if ( pause_select ) {
 			unpause()
 			break
 			
-		case 2: // Restart
+		case 1: // Restart
 			
 			break
 		
-		case 1: // Quit
-			game_restart()
+		case 2: // Quit
+			global.reset_game_room = true
+			room_goto(rm_menu)
 			break
 	}
 }

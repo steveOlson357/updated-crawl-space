@@ -19,7 +19,7 @@ if ( menu_move != 0 ) {
 if ( menu_select ) {
 	switch(index) {
 		case 0: // Start
-			room_goto(Single_view)
+			room_goto(rm_single_view)
 			
 			break
 		
