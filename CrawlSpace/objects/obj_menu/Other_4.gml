@@ -12,3 +12,6 @@ if ( layer_exists(touch_controls) ) {
 		}
 	else { layer_set_visible(touch_controls, true) show_debug_message($"Menu room not detected, show touch controls") }
 }
+
+title_layer = layer_get_id("UILayer_title")
+layer_set_visible(title_layer, true)

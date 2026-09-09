@@ -46,5 +46,6 @@ scr_player_hit(ZapFly);
 // health check for room reset
 if (player_attributes.player_hp <= 0) {
 	show_debug_message("player died")
+	
 	room_restart()
 }
