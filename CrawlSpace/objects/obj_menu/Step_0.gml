@@ -19,6 +19,7 @@ if ( menu_move != 0 ) {
 if ( menu_select ) {
 	switch(index) {
 		case 0: // Start
+		layer_set_visible(title_layer, false)
 			room_goto(rm_single_view)
 			
 			break

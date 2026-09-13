@@ -9,4 +9,7 @@ pause_length = array_length(pause_options)
 function unpause() { 
 	global.is_paused = !global.is_paused	
 	if ( !global.is_paused )  room_goto(rm_single_view)
+	pause_layer = layer_get_id("UILayer_paused")
+	layer_set_visible(pause_layer, false)
 }
+

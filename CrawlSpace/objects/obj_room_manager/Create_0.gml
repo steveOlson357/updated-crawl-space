@@ -8,9 +8,5 @@ pause_length = array_length(pause_options)
 
 global.reset_game_room = false
 
-title_layer = layer_get_id("UILayer_title")
-layer_set_visible(title_layer, false)
 
-pause_layer = layer_get_id("UILayer_paused")
-layer_set_visible(pause_layer, false)
 

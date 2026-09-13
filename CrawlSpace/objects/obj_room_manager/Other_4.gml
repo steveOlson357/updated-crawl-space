@@ -5,6 +5,15 @@ if (global.get_layer_id != undefined) {
 	layer_set_visible(global.get_layer_id, true)
 }
 
+title_layer = layer_get_id("UILayer_title")
+layer_set_visible(title_layer, false)
+
+pause_layer = layer_get_id("UILayer_paused")
+layer_set_visible(pause_layer, false)
+
+controls_layer = layer_get_id("UILayer_controls")
+layer_set_visible(controls_layer, true)
+
 
 show_debug_message($"global reset variable value at room start: {global.reset_game_room}")
 // check for game state, reset room if game has restarted
