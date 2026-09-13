@@ -23,7 +23,7 @@ if ( pause_select ) {
 			break
 			
 		case 1: // Restart
-			
+			scr_soft_restart(rm_single_view)
 			break
 		
 		case 2: // Quit
