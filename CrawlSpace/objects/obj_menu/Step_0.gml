@@ -25,13 +25,16 @@ if ( menu_select ) {
 			break
 		
 		case 1: // About
-			// About page
-			show_debug_message("About Page Called")
+			// About show/hide			
+			_about = layer_get_id("UILayer_about")
+			_is_visible = layer_get_visible(_about)
+			layer_set_visible(_about, !_is_visible)
 			break
 			
 		case 2: // Controls
-			// Controls page
-			show_debug_message("Controls Page Called")
+			_controls = layer_get_id("UILayer_controls_info")
+			_ctrl_is_visible = layer_get_visible(_controls)
+			layer_set_visible(_controls, !_ctrl_is_visible)
 			break
 	}
 }

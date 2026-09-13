@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":14,"path":"folders/Fonts.yy",},
+    {"name":"Info","order":5,"path":"folders/Sprites/Info.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Character Objects","order":1,"path":"folders/Objects/Character Objects.yy",},
     {"name":"Characters","order":3,"path":"folders/Objects/Characters.yy",},
@@ -11,11 +12,10 @@
     {"name":"Action Scripts","order":4,"path":"folders/Scripts/Action Scripts.yy",},
     {"name":"Player Scripts","order":3,"path":"folders/Scripts/Player Scripts.yy",},
     {"name":"Sprites","order":10,"path":"folders/Sprites.yy",},
-    {"name":"Character Sprites","order":3,"path":"folders/Sprites/Character Sprites.yy",},
-    {"name":"Environment","order":1,"path":"folders/Sprites/Environment.yy",},
-    {"name":"Letters","order":5,"path":"folders/Sprites/Letters.yy",},
-    {"name":"Players","order":4,"path":"folders/Sprites/Players.yy",},
-    {"name":"Weapons","order":2,"path":"folders/Sprites/Weapons.yy",},
+    {"name":"Character Sprites","order":2,"path":"folders/Sprites/Character Sprites.yy",},
+    {"name":"Letters","order":4,"path":"folders/Sprites/Letters.yy",},
+    {"name":"Players","order":3,"path":"folders/Sprites/Players.yy",},
+    {"name":"Weapons","order":1,"path":"folders/Sprites/Weapons.yy",},
     {"name":"WeaponEffects","order":1,"path":"folders/Sprites/Weapons/WeaponEffects.yy",},
   ],
   "ResourceOrderSettings":[

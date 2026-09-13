@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Info","folderPath":"folders/Sprites/Info.yy","name":"Info","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Character Objects","folderPath":"folders/Objects/Character Objects.yy","name":"Character Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Characters","folderPath":"folders/Objects/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -74,6 +75,7 @@
     {"id":{"name":"BobbingSpaceBug","path":"sprites/BobbingSpaceBug/BobbingSpaceBug.yy",},},
     {"id":{"name":"Laser","path":"sprites/Laser/Laser.yy",},},
     {"id":{"name":"spr_A","path":"sprites/spr_A/spr_A.yy",},},
+    {"id":{"name":"spr_About","path":"sprites/spr_About/spr_About.yy",},},
     {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
     {"id":{"name":"spr_C","path":"sprites/spr_C/spr_C.yy",},},
     {"id":{"name":"spr_E","path":"sprites/spr_E/spr_E.yy",},},
