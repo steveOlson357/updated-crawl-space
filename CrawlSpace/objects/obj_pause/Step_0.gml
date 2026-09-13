@@ -27,8 +27,7 @@ if ( pause_select ) {
 			break
 		
 		case 2: // Quit
-			global.reset_game_room = true
-			room_goto(rm_menu)
+			game_restart()
 			break
 	}
 }

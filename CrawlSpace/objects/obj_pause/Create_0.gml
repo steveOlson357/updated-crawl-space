@@ -1,5 +1,5 @@
 // Pause functionality
-is_paused = true
+global.is_paused = true
 
 pause_options = ["Resume", "Restart", "Quit"]
 pause_index = 0
@@ -7,6 +7,6 @@ pause_index = 0
 pause_length = array_length(pause_options)
 
 function unpause() { 
-	is_paused = !is_paused	
-	if ( !is_paused )  room_goto_previous()
+	global.is_paused = !global.is_paused	
+	if ( !global.is_paused )  room_goto(rm_single_view)
 }
