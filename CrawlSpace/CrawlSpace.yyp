@@ -31,6 +31,7 @@
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gm_filter_old_film-1.0.0","name":"io.gamemaker.gm_filter_old_film-1.0.0","path":"io.gamemaker.gm_filter_old_film-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_effect_windblown_particles-1.0.0","name":"io.gamemaker.gm_effect_windblown_particles-1.0.0","path":"io.gamemaker.gm_effect_windblown_particles-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_greyscale-1.0.0","name":"io.gamemaker.gm_filter_greyscale-1.0.0","path":"io.gamemaker.gm_filter_greyscale-1.0.0.yyp",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
@@ -73,6 +74,7 @@
     {"id":{"name":"BobbingSpaceBug","path":"sprites/BobbingSpaceBug/BobbingSpaceBug.yy",},},
     {"id":{"name":"Laser","path":"sprites/Laser/Laser.yy",},},
     {"id":{"name":"spr_A","path":"sprites/spr_A/spr_A.yy",},},
+    {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
     {"id":{"name":"spr_C","path":"sprites/spr_C/spr_C.yy",},},
     {"id":{"name":"spr_E","path":"sprites/spr_E/spr_E.yy",},},
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},},

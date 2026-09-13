@@ -41,6 +41,7 @@
     {"name":"scr_ui_functions","order":1,"path":"scripts/scr_ui_functions/scr_ui_functions.yy",},
     {"name":"BlueMarineDamaged","order":1,"path":"sprites/BlueMarineDamaged/BlueMarineDamaged.yy",},
     {"name":"spr_A","order":2,"path":"sprites/spr_A/spr_A.yy",},
+    {"name":"spr_background_menu","order":9,"path":"sprites/spr_background_menu/spr_background_menu.yy",},
     {"name":"spr_E","order":8,"path":"sprites/spr_E/spr_E.yy",},
     {"name":"spr_fire","order":5,"path":"sprites/spr_fire/spr_fire.yy",},
     {"name":"spr_jump","order":4,"path":"sprites/spr_jump/spr_jump.yy",},
