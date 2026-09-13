@@ -18,7 +18,7 @@ if ( pause_move != 0 ) {
 // selection handler
 if ( pause_select ) {
 	switch(pause_index) {
-		case 0: // resume 
+		case 0: // Resume 
 			unpause()
 			break
 			
@@ -26,8 +26,8 @@ if ( pause_select ) {
 			scr_soft_restart(rm_single_view)
 			break
 		
-		case 2: // Quit
-			game_restart()
+		case 2: // Menu
+			scr_reset_to_menu(rm_single_view)
 			break
 	}
 }

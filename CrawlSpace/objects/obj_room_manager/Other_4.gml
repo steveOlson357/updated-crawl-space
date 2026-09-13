@@ -1,3 +1,12 @@
+// Pause functionality
+
+pause_options = ["Resume", "Restart", "Quit"]
+pause_index = 0
+
+pause_length = array_length(pause_options)
+
+
+
 // if room is starting first time, global variable will be undefined
 
 if (global.get_layer_id != undefined) {
