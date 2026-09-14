@@ -3,6 +3,10 @@ if ( instance_number(obj_menu) > 1 ) {
 	instance_destroy()
 }
 
+// get layers for menu options
+_about = layer_get_id("UILayer_about")
+_controls = layer_get_id("UILayer_controls_info")
+
 // options
 menu[0] = "Start Game"
 menu[1] = "About"
