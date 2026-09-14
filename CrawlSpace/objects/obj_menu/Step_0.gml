@@ -3,7 +3,7 @@
 // get input for menu selection
 menu_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_left)
 menu_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(vk_right)
-menu_select = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || device_mouse_check_button(0, mb_left)
+menu_select = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) 
 
 menu_move = menu_down - menu_up
 
@@ -14,6 +14,8 @@ if ( menu_move != 0 ) {
 	if (index < 0) index = menu_length - 1
 	if ( index >= menu_length ) index = 0
 }
+
+
 
 // selection handler
 if ( menu_select ) {

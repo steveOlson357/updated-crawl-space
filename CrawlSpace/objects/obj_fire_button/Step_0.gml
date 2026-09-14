@@ -4,7 +4,7 @@
 
 // clear buffer
 if (is_pressed) {
-			keyboard_key_release(vk_down)
+			keyboard_key_release(vk_space)
 			is_pressed = false
 		}
 
@@ -49,7 +49,7 @@ for ( var input_detected = 0; input_detected < 5; input_detected++ ) {
 	
 	if (hover && device_mouse_check_button_pressed(_id, mb_left)) {
 		if (!is_pressed) {
-			keyboard_key_press(vk_down)
+			keyboard_key_press(vk_space)
 			is_pressed = true
 		}
 	}
