@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menu",
+  "%Name":"obj_touch_pause",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_menu",
+  "name":"obj_touch_pause",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hidden Objects",
-    "path":"folders/Objects/Hidden Objects.yy",
+    "name":"Interactive",
+    "path":"folders/Objects/Interactive.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_touch_pause",
+    "path":"sprites/spr_touch_pause/spr_touch_pause.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

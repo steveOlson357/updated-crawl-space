@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":14,"path":"folders/Fonts.yy",},
-    {"name":"Info","order":5,"path":"folders/Sprites/Info.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Character Objects","order":1,"path":"folders/Objects/Character Objects.yy",},
     {"name":"Characters","order":3,"path":"folders/Objects/Characters.yy",},
@@ -13,6 +12,7 @@
     {"name":"Player Scripts","order":3,"path":"folders/Scripts/Player Scripts.yy",},
     {"name":"Sprites","order":10,"path":"folders/Sprites.yy",},
     {"name":"Character Sprites","order":2,"path":"folders/Sprites/Character Sprites.yy",},
+    {"name":"Info","order":5,"path":"folders/Sprites/Info.yy",},
     {"name":"Letters","order":4,"path":"folders/Sprites/Letters.yy",},
     {"name":"Players","order":3,"path":"folders/Sprites/Players.yy",},
     {"name":"Weapons","order":1,"path":"folders/Sprites/Weapons.yy",},
@@ -26,6 +26,7 @@
     {"name":"obj_pause","order":3,"path":"objects/obj_pause/obj_pause.yy",},
     {"name":"obj_right_arrow","order":2,"path":"objects/obj_right_arrow/obj_right_arrow.yy",},
     {"name":"obj_room_manager","order":1,"path":"objects/obj_room_manager/obj_room_manager.yy",},
+    {"name":"obj_touch_pause","order":5,"path":"objects/obj_touch_pause/obj_touch_pause.yy",},
     {"name":"Object_Player","order":1,"path":"objects/Object_Player/Object_Player.yy",},
     {"name":"rm_menu","order":2,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"rm_pause","order":3,"path":"rooms/rm_pause/rm_pause.yy",},
@@ -54,6 +55,7 @@
     {"name":"spr_S","order":7,"path":"sprites/spr_S/spr_S.yy",},
     {"name":"spr_title_big","order":8,"path":"sprites/spr_title_big/spr_title_big.yy",},
     {"name":"spr_title","order":7,"path":"sprites/spr_title/spr_title.yy",},
+    {"name":"spr_touch_pause","order":10,"path":"sprites/spr_touch_pause/spr_touch_pause.yy",},
     {"name":"spr_U","order":6,"path":"sprites/spr_U/spr_U.yy",},
     {"name":"spr_W","order":4,"path":"sprites/spr_W/spr_W.yy",},
     {"name":"Sprite_Player","order":1,"path":"sprites/Sprite_Player/Sprite_Player.yy",},

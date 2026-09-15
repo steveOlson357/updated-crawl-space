@@ -13,12 +13,19 @@ if (global.get_layer_id != undefined) {
 	// set visible here when room restarts
 	layer_set_visible(global.get_layer_id, true)
 }
+// add touch pause layer visibility logic
+if (global.get_pause_layer_id != undefined) {
+	layer_set_visible(global.get_pause_layer_id, true)
+}
 
 title_layer = layer_get_id("UILayer_title")
 layer_set_visible(title_layer, false)
 
 pause_layer = layer_get_id("UILayer_paused")
 layer_set_visible(pause_layer, false)
+
+touch_pause_layer = layer_get_id("UILayer_touch_pause")
+layer_set_visible(touch_pause_layer, true)
 
 controls_layer = layer_get_id("UILayer_controls")
 layer_set_visible(controls_layer, true)
