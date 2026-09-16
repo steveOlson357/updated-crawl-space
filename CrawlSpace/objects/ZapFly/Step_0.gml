@@ -1,5 +1,9 @@
 /// @description Enemy Step
 
+/***********************************************************
+***************Player Enemy Behavior**************************
+***********************************************************/
+
 // verify enemy alive and check for velocity change
 
 

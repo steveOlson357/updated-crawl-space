@@ -1,4 +1,4 @@
-// move to step event after testing
+/// @description creates variables
 
 _flex_node = layer_get_flexpanel_node("UILayer_controls")
 _flex_struct = flexpanel_node_get_struct(_flex_node)

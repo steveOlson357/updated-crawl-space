@@ -70,7 +70,6 @@
     {"id":{"name":"scr_scale_canvas_aspect","path":"scripts/scr_scale_canvas_aspect/scr_scale_canvas_aspect.yy",},},
     {"id":{"name":"scr_soft_restart","path":"scripts/scr_soft_restart/scr_soft_restart.yy",},},
     {"id":{"name":"scr_to_menu","path":"scripts/scr_to_menu/scr_to_menu.yy",},},
-    {"id":{"name":"scr_ui_functions","path":"scripts/scr_ui_functions/scr_ui_functions.yy",},},
     {"id":{"name":"BlueMarineDamaged","path":"sprites/BlueMarineDamaged/BlueMarineDamaged.yy",},},
     {"id":{"name":"BlueMarineWaiting","path":"sprites/BlueMarineWaiting/BlueMarineWaiting.yy",},},
     {"id":{"name":"BobbingSpaceBug","path":"sprites/BobbingSpaceBug/BobbingSpaceBug.yy",},},

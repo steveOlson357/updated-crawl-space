@@ -1,3 +1,4 @@
+/// @description Clean up
 // when room ends, set ui iD to global variable and set visibility to false
 // Room start event will bring up layer when room starts again.
 /*******************************************

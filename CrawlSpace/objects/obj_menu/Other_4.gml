@@ -1,13 +1,4 @@
-// check for existing instance and self destruct if exists
-//if ( instance_number(obj_menu) > 1 ) {
-//	instance_destroy()
-//}
-// experimental ternary operator
-//_existing_menu = instance_number(obj_menu) > 1 ? instance_destroy(_existing_menu) : pointer_null
-
-
-// test next???
-//global.reset_game_room = false
+/// @description Set up menu
 
 // get layers for menu options
 _about = layer_get_id("UILayer_about")

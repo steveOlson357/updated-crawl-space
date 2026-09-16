@@ -1,4 +1,4 @@
-// Pause functionality
+/// @description Init pause functionality
 global.is_paused = true
 
 pause_options = ["Resume", "Restart", "Quit To Menu"]

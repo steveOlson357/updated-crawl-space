@@ -1,3 +1,6 @@
+/// @function scr_scale_canvas_aspect
+/// @description Helper function for responsive sizing
+
 function scr_scale_canvas_aspect(){
 	var browser_aspect = browser_width / browser_height;
 	var game_aspect = base_width / base_height;

@@ -1,3 +1,4 @@
+/// @description convert and apply input
 
 // clear movement buffer
 if (is_pressed) {

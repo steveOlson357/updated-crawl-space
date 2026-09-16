@@ -1,3 +1,4 @@
+/// @description init responsive variables
 base_width = 1300;
 base_height = 1500;
 

@@ -1,4 +1,4 @@
-// Menu navigation
+/// @description Menu navigation
 
 // get input for menu selection
 menu_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_left)

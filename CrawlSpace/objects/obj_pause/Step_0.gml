@@ -1,3 +1,4 @@
+/// @description Handle menu nav
 // quick resume with esc key
 if ( keyboard_check_pressed(vk_escape) ) unpause()
 // map nav input and enable menu navigation

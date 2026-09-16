@@ -1,3 +1,7 @@
+/// @function scr_player_hit
+/// @description For handling enemy proximity attack on player
+/// @param {struct} enemy Enemy instance attacking
+
 function scr_player_hit(enemy){
 	
 		player_attributes.player_hp -= enemy.strength

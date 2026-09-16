@@ -1,4 +1,4 @@
-// listen for enter or escape to pause
+/// @description listen for input to pause
 
 if ( room == rm_single_view && ( keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_escape) ) ) {
 

@@ -1,10 +1,10 @@
+/// @description Draws Menu Items
 draw_set_font(fnt_menu)
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 
 gap = 60
 
-show_debug_message("menu draw event")
 
 for ( i = 0; i < menu_length; i++ ) {
 	if ( i == index ) draw_set_colour(c_aqua)

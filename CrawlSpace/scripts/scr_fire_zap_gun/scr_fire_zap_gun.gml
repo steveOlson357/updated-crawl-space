@@ -1,3 +1,5 @@
+/// @function scr_fire_zap_gun
+/// @description Handles zap gun projectile instantiation
 function scr_fire_zap_gun(){
 	
 		// create laser 

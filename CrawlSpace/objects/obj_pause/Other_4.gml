@@ -1,4 +1,4 @@
-// clear touch controls when menu is active
+/// @description handle UI layer visibility
 
 touch_controls = layer_get_id("UILayer_controls")
 
