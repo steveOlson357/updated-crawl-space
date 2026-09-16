@@ -4,6 +4,8 @@ draw_set_valign(fa_middle)
 
 gap = 60
 
+show_debug_message("menu draw event")
+
 for ( i = 0; i < menu_length; i++ ) {
 	if ( i == index ) draw_set_colour(c_aqua)
 	else draw_set_color(c_green)
