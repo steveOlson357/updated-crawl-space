@@ -1,3 +1,6 @@
+/// @function scr_player_jump
+/// @description Handles player jump logic
+
 function scr_player_jump(){
 	
 		// Reset jump counter if on solid surface

@@ -1,4 +1,4 @@
-
+/// @description listen for collisions
 if place_meeting(x, y, interacts_with) {
 	
 	// instance place returns instance ID or keyword noone

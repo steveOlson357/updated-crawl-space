@@ -1,3 +1,7 @@
+/***********************************************************
+***************Player Step Event**************************
+***********************************************************/
+
 // utilize direction keys for movement and player attributes for gravity and speed
 move_x = ((keyboard_check(vk_right) - keyboard_check(vk_left)) * player_attributes.player_speed);
 move_y = player_attributes.player_fall_speed
@@ -31,7 +35,6 @@ move_and_collide(move_x, move_y, PlatformTileCollisions);
 
 // set height limit for player death for falling out of the room
 if y > (room_height + sprite_height) {
-	show_debug_message("player fell")
 	room_restart()
 }
 
@@ -45,6 +48,6 @@ scr_player_hit(ZapFly);
 
 // health check for room reset
 if (player_attributes.player_hp <= 0) {
-	show_debug_message("player died")
+	room_persistent = false
 	room_restart()
 }

@@ -1,1 +1,2 @@
+/// @description add key
 global.vkey_jump = virtual_key_add(x, y, sprite_width, sprite_height, vk_up);

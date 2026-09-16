@@ -1,7 +1,7 @@
+/***********************************************************
+***************Player Create Event**************************
+***********************************************************/
 // Attributes, mutable (struct) and immutable (const)
-
-
-
 player_attributes = {
 		height : sprite_height,
 		width : sprite_width,

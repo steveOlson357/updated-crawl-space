@@ -1,3 +1,4 @@
+/// @description set up variables
 // Creation code - declare variables
 
 laser_height = sprite_height; 

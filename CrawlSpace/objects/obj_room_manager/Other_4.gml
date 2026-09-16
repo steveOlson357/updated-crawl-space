@@ -1,6 +1,48 @@
+/// @description Pause functionality
+
+pause_options = ["Resume", "Restart", "Quit"]
+pause_index = 0
+
+pause_length = array_length(pause_options)
+
+
+
 // if room is starting first time, global variable will be undefined
 
 if (global.get_layer_id != undefined) {
 	// set visible here when room restarts
 	layer_set_visible(global.get_layer_id, true)
 }
+// add touch pause layer visibility logic
+if (global.get_pause_layer_id != undefined) {
+	layer_set_visible(global.get_pause_layer_id, true)
+}
+
+title_layer = layer_get_id("UILayer_title")
+layer_set_visible(title_layer, false)
+
+pause_layer = layer_get_id("UILayer_paused")
+layer_set_visible(pause_layer, false)
+
+touch_pause_layer = layer_get_id("UILayer_touch_pause")
+layer_set_visible(touch_pause_layer, true)
+
+controls_layer = layer_get_id("UILayer_controls")
+layer_set_visible(controls_layer, true)
+
+about_layer = layer_get_id("UILayer_about")
+layer_set_visible(about_layer, false)
+
+control_info_layer = layer_get_id("UILayer_controls_info")
+layer_set_visible(control_info_layer, false)
+
+
+// check for game state, reset room if game has restarted
+if ( global.reset_game_room ) {
+	global.reset_game_room = false
+	room_persistent = false
+	room_restart()
+} else {
+//	room_persistent = true
+}
+
