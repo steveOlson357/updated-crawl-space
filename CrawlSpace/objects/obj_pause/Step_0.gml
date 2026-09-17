@@ -1,6 +1,6 @@
 /// @description Handle menu nav
 // quick resume with esc key
-if ( keyboard_check_pressed(vk_escape) ) unpause()
+if ( keyboard_check_pressed(vk_escape) ) unpause(rm_return)
 // map nav input and enable menu navigation
 pause_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_left)
 pause_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(vk_right)
@@ -20,15 +20,15 @@ if ( pause_move != 0 ) {
 if ( pause_select ) {
 	switch(pause_index) {
 		case 0: // Resume 
-			unpause()
+			unpause(rm_return)
 			break
 			
 		case 1: // Restart
-			scr_soft_restart(rm_single_view)
+			scr_soft_restart(rm_return)
 			break
 		
 		case 2: // Menu
-			scr_reset_to_menu(rm_single_view)
+			scr_reset_to_menu(rm_return)
 			break
 	}
 }

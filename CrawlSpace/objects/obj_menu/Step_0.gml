@@ -24,6 +24,7 @@ if ( menu_select ) {
 			layer_set_visible(title_layer, false)
 			room_goto(rm_single_view)
 			scr_soft_restart(rm_single_view) // keeps room fresh after quitting from pause menu
+			scr_soft_restart(rm_level_2) 
 			break
 		
 		case 1: // Show About, Hide Controls		
