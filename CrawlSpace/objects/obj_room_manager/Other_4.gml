@@ -1,9 +1,4 @@
-/// @description Pause functionality
-
-pause_options = ["Resume", "Restart", "Quit"]
-pause_index = 0
-
-pause_length = array_length(pause_options)
+/// @description configure room
 
 
 

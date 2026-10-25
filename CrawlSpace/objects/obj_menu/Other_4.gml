@@ -3,6 +3,7 @@
 // get layers for menu options
 _about = layer_get_id("UILayer_about")
 _controls = layer_get_id("UILayer_controls_info")
+_labels = layer_get_id("Tiles_Info")
 
 // options
 menu[0] = "Start Game"

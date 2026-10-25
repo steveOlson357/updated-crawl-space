@@ -8,3 +8,5 @@ layer_set_visible(pause_layer, true)
 touch_pause = layer_get_id("UILayer_touch_pause")
 layer_set_visible(touch_pause, false)
 
+// get room paused from 
+rm_return = global.active_room
