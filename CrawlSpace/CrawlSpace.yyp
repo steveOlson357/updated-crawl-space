@@ -78,6 +78,7 @@
     {"id":{"name":"spr_A","path":"sprites/spr_A/spr_A.yy",},},
     {"id":{"name":"spr_About","path":"sprites/spr_About/spr_About.yy",},},
     {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
+    {"id":{"name":"spr_basic_letters","path":"sprites/spr_basic_letters/spr_basic_letters.yy",},},
     {"id":{"name":"spr_C","path":"sprites/spr_C/spr_C.yy",},},
     {"id":{"name":"spr_Controls","path":"sprites/spr_Controls/spr_Controls.yy",},},
     {"id":{"name":"spr_E","path":"sprites/spr_E/spr_E.yy",},},
