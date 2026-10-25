@@ -62,6 +62,7 @@
     {"name":"Sprite_Player","order":1,"path":"sprites/Sprite_Player/Sprite_Player.yy",},
     {"name":"Sprite27","order":11,"path":"sprites/Sprite27/Sprite27.yy",},
     {"name":"TileSheet","order":6,"path":"sprites/TileSheet/TileSheet.yy",},
+    {"name":"tile_set_basic_letters","order":16,"path":"tilesets/tile_set_basic_letters/tile_set_basic_letters.yy",},
     {"name":"TileSet_Platform","order":1,"path":"tilesets/TileSet_Platform/TileSet_Platform.yy",},
   ],
 }

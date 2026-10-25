@@ -14,12 +14,12 @@
     {"$GMRUILayer":"v1","%Name":"UILayer_about","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel_1","alignItems":2,"children":[
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_7D2B4B16","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_7D2B4B16","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_About","path":"sprites/spr_About/spr_About.yy",},"x":0.0,"y":0.0,},
-          ],"flexDirection":0,"height":{"unit":1,"value":850.0,},"justifyContent":1,"name":"FlexPanel_1","nodeColour":4294068329,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":750.0,},},
+          ],"flexDirection":0,"height":{"unit":1,"value":1698.0,},"justifyContent":1,"name":"FlexPanel_1","nodeColour":4294068329,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":1316.0,},},
       ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":2,"name":"UILayer_about","nodeColour":4282948594,"paddingBottom":{"unit":1,"value":10.0,},"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"UILayer_controls_info","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel_1","alignItems":2,"children":[
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_3F64FC66","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3F64FC66","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_Controls","path":"sprites/spr_Controls/spr_Controls.yy",},"x":0.0,"y":0.0,},
-          ],"flexDirection":0,"height":{"unit":1,"value":850.0,},"justifyContent":1,"name":"FlexPanel_1","nodeColour":4294068329,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":750.0,},},
+          ],"flexDirection":0,"height":{"unit":1,"value":1698.0,},"justifyContent":1,"name":"FlexPanel_1","nodeColour":4294068329,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":1316.0,},},
       ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":2,"name":"UILayer_controls_info","nodeColour":4282948594,"paddingBottom":{"unit":1,"value":10.0,},"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"UILayer_controls","alignItems":3,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel_Controls","alignContent":7,"alignItems":2,"children":[

@@ -99,6 +99,7 @@
     {"id":{"name":"Sprite_Player","path":"sprites/Sprite_Player/Sprite_Player.yy",},},
     {"id":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},},
     {"id":{"name":"TileSheet","path":"sprites/TileSheet/TileSheet.yy",},},
+    {"id":{"name":"tile_set_basic_letters","path":"tilesets/tile_set_basic_letters/tile_set_basic_letters.yy",},},
     {"id":{"name":"TileSet_Platform","path":"tilesets/TileSet_Platform/TileSet_Platform.yy",},},
   ],
   "resourceType":"GMProject",
