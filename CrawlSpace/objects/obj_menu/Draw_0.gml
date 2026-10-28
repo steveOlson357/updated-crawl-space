@@ -3,7 +3,7 @@ draw_set_font(fnt_menu)
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 
-gap = 60
+gap = 175
 
 
 for ( i = 0; i < menu_length; i++ ) {
@@ -12,7 +12,7 @@ for ( i = 0; i < menu_length; i++ ) {
 	
 	_draw_text_x = (room_width / 2)
 	_draw_text_y = ( (room_height / 2.25) + (i*gap) )
-	draw_text( _draw_text_x, _draw_text_y, menu[i] )
+	_menu_text = draw_text( _draw_text_x, _draw_text_y, menu[i] )
 	
 	
 }
