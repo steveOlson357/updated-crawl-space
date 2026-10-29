@@ -48,7 +48,6 @@ for ( i = 0; i < menu_length; i++; ) {
 	if ( point_in_rectangle(_mouse_x, _mouse_y, _x1, _y1, _x2, _y2) ) {
 		// hover effect and check for click / tap
 		
-		show_debug_message($"Point in rectangle acknowledged")
 		index = i 
 		
 		if ( device_mouse_check_button_pressed(0, mb_left) ) {

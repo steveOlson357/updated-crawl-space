@@ -1,8 +1,12 @@
 /// @description Init pause functionality
 global.is_paused = true
 
-pause_options = ["Resume", "Restart", "Quit To Menu"]
+// pause_options = ["Resume", "Restart", "Quit To Menu"]
+pause_options[0] = "Resume"
+pause_options[1] = "Restart"
+pause_options[2] = "Quit To Menu"
 pause_index = 0
+gap = 175
 
 pause_length = array_length(pause_options)
 
