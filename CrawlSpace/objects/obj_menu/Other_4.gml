@@ -1,7 +1,7 @@
 /// @description Set up menu
 
 // shared by draw event and step event
-gap = 175
+gap = 250
 
 // get layers for menu options
 _about = layer_get_id("UILayer_about")

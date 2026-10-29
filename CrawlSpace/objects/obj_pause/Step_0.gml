@@ -26,7 +26,7 @@ for ( i = 0; i < pause_length; i++ ) {
 	
 	// duplicate info from draw step
 	_menu_x = (room_width / 2)
-	_menu_y = ( (room_height / 2.25) + ( i* (gap) ) )
+	_menu_y = ( (room_height / 2) + ( i* (gap) ) )
 	
 	_text_w = string_width(pause_options[i])
 	_text_h = string_height(pause_options[i])

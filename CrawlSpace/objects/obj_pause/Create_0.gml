@@ -6,9 +6,11 @@ pause_options[0] = "Resume"
 pause_options[1] = "Restart"
 pause_options[2] = "Quit To Menu"
 pause_index = 0
-gap = 175
+gap = 250
 
 pause_length = array_length(pause_options)
+
+
 
 function unpause(_room_) { 
 	global.is_paused = !global.is_paused	
