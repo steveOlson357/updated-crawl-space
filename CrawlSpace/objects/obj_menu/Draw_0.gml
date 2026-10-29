@@ -9,7 +9,7 @@ for ( i = 0; i < menu_length; i++ ) {
 	else draw_set_color(c_green)
 	
 	_draw_text_x = (room_width / 2)
-	_draw_text_y = ( (room_height / 2.25) + (i*gap) )
+	_draw_text_y = ( (room_height / 2) + (i*gap) )
 	_menu_text = draw_text( _draw_text_x, _draw_text_y, menu[i] )
 	
 	

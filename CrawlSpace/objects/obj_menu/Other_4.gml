@@ -3,6 +3,7 @@
 // shared by draw event and step event
 gap = 250
 
+
 // get layers for menu options
 _about = layer_get_id("UILayer_about")
 _controls = layer_get_id("UILayer_controls_info")

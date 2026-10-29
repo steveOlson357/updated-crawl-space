@@ -25,7 +25,7 @@ _mouse_y = device_mouse_y_to_gui(0)
 for ( i = 0; i < menu_length; i++; ) {
 	// provide same coordinates as draw event
 	_menu_x = (room_width / 2)
-	_menu_y = ( (room_height / 2.25) + ( i* (gap) ) )
+	_menu_y = ( (room_height / 2) + ( i* (gap*0.8) ) )
 	// get option coordinates
 	_text_w = string_width(menu[i])
 	_text_h = string_height(menu[i]) 
