@@ -15,6 +15,8 @@ if ( menu_move != 0 ) {
 	if ( index >= menu_length ) index = 0
 }
 
+/***************Needs close about and controls mechanism for tap/ mouse******************/
+
 /********Enable Tap and Mouse Click**********/
 _mouse_x = device_mouse_x_to_gui(0)
 _mouse_y = device_mouse_y_to_gui(0)
@@ -23,18 +25,25 @@ _mouse_y = device_mouse_y_to_gui(0)
 for ( i = 0; i < menu_length; i++; ) {
 	// provide same coordinates as draw event
 	_menu_x = (room_width / 2)
-	_menu_y = ( (room_height / 2.25) + (i*gap) )
+	_menu_y = ( (room_height / 2.25) + ( i* (gap) ) )
 	// get option coordinates
 	_text_w = string_width(menu[i])
 	_text_h = string_height(menu[i]) 
 	
 	// calculate box coordinates from text draw points
 	_x1 = _menu_x - ( (_text_w / 2) - (_text_w % 2) )
-	_y1 = _menu_y
+	_y1 = _menu_y - (_text_h / 2)
 	_x2 = _menu_x + (_text_w / 2) - (_text_w % 2)
-	_y2 = _menu_y + _text_h
+	_y2 = _menu_y + (_text_h / 2)
 	
+	gui_rectangle = convert_rectangle_to_gui(_x1, _y1, _x2, _y2)
 	
+	// set original coordinate variables to corresponding return rectangle
+	
+	_x1 = gui_rectangle[0]
+	_y1 = gui_rectangle[1]
+	_x2 = gui_rectangle[2]
+	_x3 = gui_rectangle[3]
 	
 	if ( point_in_rectangle(_mouse_x, _mouse_y, _x1, _y1, _x2, _y2) ) {
 		// hover effect and check for click / tap

@@ -15,7 +15,7 @@ for ( i = 0; i < menu_length; i++ ) {
 	
 }
 
-draw_circle(_mouse_x, _mouse_y, 30, false)
+
 
 // reset drawing default
 draw_set_colour(c_white)
