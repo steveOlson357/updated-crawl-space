@@ -3,8 +3,6 @@ draw_set_font(fnt_menu)
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 
-gap = 175
-
 
 for ( i = 0; i < menu_length; i++ ) {
 	if ( i == index ) draw_set_colour(c_aqua)
@@ -16,6 +14,8 @@ for ( i = 0; i < menu_length; i++ ) {
 	
 	
 }
+
+draw_circle(_mouse_x, _mouse_y, 30, false)
 
 // reset drawing default
 draw_set_colour(c_white)
