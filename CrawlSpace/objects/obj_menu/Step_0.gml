@@ -54,7 +54,7 @@ for ( i = 0; i < menu_length; i++; ) {
 		if ( device_mouse_check_button_pressed(0, mb_left) ) {
 			// enable selection
 			keyboard_key_press(vk_enter)
-			break
+			keyboard_key_release(vk_enter)
 		}
 	}
 }
@@ -76,17 +76,12 @@ if ( menu_select ) {
 			
 			layer_set_visible(_controls, false)
 			
-			// if about is visible, set labels to not visible and vice versa
-			_hide_labels = ( layer_get_visible(_about) == true ) ? false : true;
-			layer_set_visible(_labels, _hide_labels)
 			break
 			
 		case 2: // Show Controls, Hide About and on screen labels
 			_ctrl_is_visible = layer_get_visible(_controls)
 			layer_set_visible(_controls, !_ctrl_is_visible)
 			layer_set_visible(_about, false)
-			_hide_labels = ( layer_get_visible(_controls) == true ) ? false : true;
-			layer_set_visible(_labels, _hide_labels)
 			break
 	}
 }

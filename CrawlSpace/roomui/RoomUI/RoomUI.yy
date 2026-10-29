@@ -38,7 +38,7 @@
                 {"$GMRInstance":"v4","%Name":"inst_5EE9D283","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EE9D283","objectId":{"name":"obj_fire_button","path":"objects/obj_fire_button/obj_fire_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
               ],"flexDirection":0,"height":{"unit":1,"value":250.0,},"justifyContent":1,"name":"FlexPanel_Fire","nodeColour":4288956658,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":250.0,},},
           ],"flexDirection":2,"flexWrap":1,"height":{"unit":1,"value":300.0,},"justifyContent":5,"name":"FlexPanel_Controls","nodeColour":4294068395,"positionBottom":{"unit":1,"value":75.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":800.0,},},
-      ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_controls","nodeColour":4294068306,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_controls","nodeColour":4294068306,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"UILayer_title","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"flx_crawl","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"FlexPanel_letter","alignItems":2,"children":[
