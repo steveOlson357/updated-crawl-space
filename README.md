@@ -6,7 +6,7 @@ Can you blast all the *Zap Flies* before they spawn reinforcements?!
 
 **🎮 Play Instant in Browser:** https://techbytrade.itch.io/crawl-space
 
-**🧪 Live Test Deployment:** https://steveolson357.github.io/
+**🧪 Live Test Deployment:** https://crawlspacethegame.com 
 
 ---
 Controls: 
