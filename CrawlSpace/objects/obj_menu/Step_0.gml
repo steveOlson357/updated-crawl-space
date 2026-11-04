@@ -74,7 +74,6 @@ if ( menu_select ) {
 			layer_set_visible(_about, !_is_visible)
 			
 			layer_set_visible(_controls, false)
-			
 			break
 			
 		case 2: // Show Controls, Hide About and on screen labels
