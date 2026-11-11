@@ -1,7 +1,5 @@
 /// @description configure room
 
-
-
 // if room is starting first time, global variable will be undefined
 
 if (global.get_layer_id != undefined) {
