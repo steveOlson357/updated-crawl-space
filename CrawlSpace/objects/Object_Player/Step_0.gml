@@ -51,3 +51,9 @@ if (player_attributes.player_hp <= 0) {
 	room_persistent = false
 	room_restart()
 }
+
+if ( place_meeting(x, y, obj_NextLevel) ) {
+	
+	room_persistent = false
+	room_goto_next()
+}
