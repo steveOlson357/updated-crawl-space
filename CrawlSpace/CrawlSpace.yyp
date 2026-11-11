@@ -77,6 +77,7 @@
     {"id":{"name":"BlueMarineWaiting","path":"sprites/BlueMarineWaiting/BlueMarineWaiting.yy",},},
     {"id":{"name":"BobbingSpaceBug","path":"sprites/BobbingSpaceBug/BobbingSpaceBug.yy",},},
     {"id":{"name":"Laser","path":"sprites/Laser/Laser.yy",},},
+    {"id":{"name":"old_spr_About","path":"sprites/old_spr_About/old_spr_About.yy",},},
     {"id":{"name":"spr_A","path":"sprites/spr_A/spr_A.yy",},},
     {"id":{"name":"spr_About","path":"sprites/spr_About/spr_About.yy",},},
     {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
