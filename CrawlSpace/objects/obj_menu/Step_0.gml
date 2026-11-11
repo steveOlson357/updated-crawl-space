@@ -81,5 +81,9 @@ if ( menu_select ) {
 			layer_set_visible(_controls, !_ctrl_is_visible)
 			layer_set_visible(_about, false)
 			break
+			
+		case 3: // Open portfolio webpage
+			url_open("https://playcrawlspace.com/bytebank")
+			break
 	}
 }
